@@ -1,0 +1,10 @@
+.cardsdash{
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: #506C9C;
+    --bs-card-border-radius: 20px;
+}
+.title {
+    color: #163960 !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}

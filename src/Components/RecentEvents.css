@@ -1,0 +1,29 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.custom-table th {
+    color: #163960; 
+    padding: 10px;
+}
+.custom-table td {
+    color: #163960; 
+    padding: 10px;
+    border: 1px solid #506C9C;
+}
+.entry-badge {
+    background-color: green !important; 
+    color: white !important; 
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.exit-badge {
+    background-color: red !important; 
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.recent{
+    min-height: 60vh;
+}
