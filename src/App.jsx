@@ -61,9 +61,7 @@ export default function App() {
           { path: '*', element: <Navigate to="/" replace /> },
         ],
       },
-    ],{
-      basename: "/Sayes" 
-    }
+    ],
   );
   return <RouterProvider router={router} />;
 }
