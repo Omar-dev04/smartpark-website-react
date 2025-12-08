@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/Sayes/(.*)", "destination": "/index.html" }
-  ]
-}
