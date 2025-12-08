@@ -64,6 +64,7 @@ export default function App() {
         ],
       },
     ],{
+      basename: "/Sayes" 
     }
   );
   return <RouterProvider router={router} />;
