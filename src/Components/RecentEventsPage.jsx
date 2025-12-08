@@ -2,7 +2,6 @@ import RecentEvents from "./RecentEvents";
 import "./Overview.css";
 import "./RecentEvents.css";   
 
-
 export default function RecentEventsPage() {
   return (
     <div className="recent">

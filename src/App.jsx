@@ -13,6 +13,7 @@ import ParkingOccupancy from "./Components/ParkingOccupancy.jsx";
 import VehicleTypes from "./Components/VehicleTypes.jsx";
 import RecentEventsPage from "./Components/RecentEventsPage.jsx";
 import Overview from './Components/Overview.jsx';
+import RatingCardPage from './Components/RatingCardPage.jsx';
 
 function Layout({ isLoggedIn, setIsLoggedIn }) {
   return (
@@ -56,12 +57,15 @@ export default function App() {
               { path: 'parking-occupancy', element: <ParkingOccupancy /> },
               { path: 'vehicle-types', element: <VehicleTypes /> },
               { path: 'recent-events', element: <RecentEventsPage /> },
+              { path: 'rating-Card', element: <RatingCardPage /> },
             ],
           },
           { path: '*', element: <Navigate to="/" replace /> },
         ],
       },
-    ],
+    ],{
+      basename: "/Sayes" 
+    }
   );
   return <RouterProvider router={router} />;
 }

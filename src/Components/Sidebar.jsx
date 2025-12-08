@@ -17,6 +17,9 @@ export default function Sidebar() {
         <li className="nav-item">
           <NavLink to="/dashboard/recent-events" className="nav-link">Recent Parking Events</NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink to="/dashboard/rating-Card" className="nav-link">Application Rating</NavLink>
+        </li>
       </ul>
     </div>
   );

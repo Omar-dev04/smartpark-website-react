@@ -2,6 +2,7 @@ import StatsCards from "./StatsCards.jsx";
 import ParkingChart from "./ParkingChart.jsx";
 import VehiclePie from "./VehiclePie.jsx";
 import RecentEvents from "./RecentEvents.jsx";
+import RatingCard from "./RatingCard.jsx";
 import "./Overview.css";
 
 export default function Overview() {
@@ -23,9 +24,17 @@ export default function Overview() {
         </div>
         <div className="row mt-4">
             <div className="col-12">
-            <div className="card shadow-sm p-3 cardsdash">
-                <h5 className="title">Recent Parking Events</h5> <RecentEvents />
+                <div className="card shadow-sm p-3 cardsdash">
+                    <h5 className="title">Recent Parking Events</h5> <RecentEvents />
+                </div>
             </div>
+        </div>
+        <div className="row mt-4 justify-content-center">
+            <div className="col-12 col-lg-4">
+                <div className="card p-3 shadow-sm cardsdash text-center">
+                    <h5 className="title">Recent Parking Events</h5>
+                    <RatingCard />
+                </div>
             </div>
         </div>
         </>

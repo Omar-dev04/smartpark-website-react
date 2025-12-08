@@ -86,7 +86,7 @@ export default function Navbar({ isLoggedIn, setIsLoggedIn }) {
                                         <i className={showPassword ? "fa-regular fa-eye" : "fa-regular fa-eye-slash"}></i>
                                         </span>
                                         <div style={{ height: "20px" }}>
-                                        {error && <p style={{ color: "red", margin: "0" }}>{error}</p>}
+                                        {error && <p style={{ color: "red", margin: "0" ,fontSize:"15px"}}>{error}</p>}
                                         </div>
                                     </div>
                                     <button type="submit" className="btn w-100">Login</button>

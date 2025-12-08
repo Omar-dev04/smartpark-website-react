@@ -47,7 +47,7 @@ nav{
     display: none;
 }
 .dropdown-menu{
-    min-width:280px;
+    min-width:225px;
     min-height: 200px;
 }
 .admin-btn {
