@@ -70,10 +70,6 @@ export default function App() {
         ],
       },
     ],
-    {
-      // Remove basename unless you need /Sayes URL
-      // basename: "/" 
-    }
   );
 
   return <RouterProvider router={router} />;
